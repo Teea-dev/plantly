@@ -13,7 +13,7 @@ export default function Layout() {
       />
       <Stack.Screen
         name="new"
-        options={{ presentation: "fullScreenModal", title: "New Plant" }}
+        options={{ presentation: "modal", title: "New Plant" }}
       />
     </Stack>
   );
