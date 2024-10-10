@@ -40,7 +40,7 @@ export default function NewScreen() {
         "Watering frequency must be a be a number",
       );
     }
-    addPlant(name, Number(days));
+    addPlant(name, Number(days), image);
     router.navigate("/");
 
     console.log("Adding plant", name, days);
