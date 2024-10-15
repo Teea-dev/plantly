@@ -37,7 +37,7 @@ export default function NewScreen() {
     if (Number.isNaN(Number(days))) {
       return Alert.alert(
         "Validation Error",
-        // "Watering frequency must be a be a number",
+        "Watering frequency must be a be a number",
       );
     }
     addPlant(name, Number(days), image);
