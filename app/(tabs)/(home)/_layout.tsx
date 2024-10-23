@@ -23,7 +23,7 @@ export default function Layout() {
           ),
         }}
       />
-      <Stack.Screen name="plants/[palntId].tsx" options={{ title: "" }} />
+      <Stack.Screen name="plants/[plantId].tsx" options={{ title: "" }} />
     </Stack>
   );
 }
