@@ -1,8 +1,7 @@
 import { theme } from "@/theme";
-import { AntDesign } from "@expo/vector-icons";
+import AntDesign from "@expo/vector-icons/AntDesign";
 import { Link, Stack } from "expo-router";
 import { Pressable } from "react-native";
-
 export default function Layout() {
   return (
     <Stack>
@@ -10,9 +9,7 @@ export default function Layout() {
         name="index"
         options={{
           title: "Home",
-          tabBarShowLabel: false,
           headerShown: false,
-
           headerRight: () => (
             <Link href="/new" asChild>
               <Pressable hitSlop={20}>
